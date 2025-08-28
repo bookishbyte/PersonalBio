@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="[Your Name] - [Your Professional Title and Specialization]"
+    />
+    <title>Alexis Molina | Student</title>
+    <link rel="stylesheet" href="personal-bio.css" />
+  </head>
+  <body>
+    <!-- TODO: Add header with your name, professional title, and navigation -->
+    <header>
+      <h1>Alexis Molina | Student</h1>
+      <!-- Navigation should link to: #about, #skills, #contact -->
+      <nav>
+        <span class="nav-item"><a href="#about">About</a></span>
+        <span class="nav-item"><a href="#skills">Skills</a></span>
+        <span class="nav-item"><a href="#contact">Contact</a></span>
+      </nav>
+    </header>
+    <!-- TODO: Add main element -->
+    <!-- TODO: Add About section with id="about" -->
+    <!-- Include: h2 "About Me", professional photo with alt text, 2-3 paragraphs about yourself -->
+    <main>
+      <h2 id="about">About</h2>
+
+      <!--photo here-->
+      <img src="photo.png" alt="jordan-chen" />
+      <p>
+        Hello! My name is Alexis, and my current role is a Background Screener
+        for a large international company.
+      </p>
+      <p>
+        My professional experience has included engaging in effective
+        communication with consumers and relevant stakeholders. Conducting
+        thorough research utilizing various public resources. Draft
+        correspondence to obtain critical information needed and provide
+        requested relevant information to all stakeholders.
+      </p>
+      <p>
+        After spending some time dabbling in web design, taking small courses
+        here and there, I've finally decided to dive into the 27-week Full Stack
+        Developer Bootcamp for Beginners with Codeacademy.
+      </p>
+
+      <!-- TODO: Add Skills section with id="skills" -->
+      <!-- Include: h2 "Skills & Experience", multiple h3 categories with organized lists -->
+
+      <h2 id="skills">Skills & Experience</h2>
+      <h3>Abilities</h3>
+      <ul>
+        <li>Performing meticulous data entry and ensuring accuracy.</li>
+        <li>Providing thorough training and guidance for colleagues.</li>
+        <li>
+          Conducting in-depth research on various topics for professional,
+          educational, and personal purposes.
+        </li>
+      </ul>
+      <h3>Education</h3>
+      <ul>
+        <li>B.S. Public Management and Policy, University of Arizona</li>
+        <li>B.S. Criminal Justice Studies, University of Arizona</li>
+        <li>CCL Paralegal Studies, Phoenix College</li>
+      </ul>
+      <h3>Currently Learning</h3>
+      <ul>
+        <li>Hypertext Markup Language (HTML)</li>
+        <li>Cascading Style Sheets (CSS)</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+
+      <h3>Projects</h3>
+      <ul>
+        <li>Bio Page</li>
+        <li>More To Come...</li>
+      </ul>
+
+      <!-- TODO: Add Contact section with id="contact" -->
+      <!-- Include: h2 "Let's Connect", social media links (email, LinkedIn, GitHub), and message form -->
+      <!-- Form should have: name, email, message fields and submit button -->
+      <h2 id="contact">Let's Connect</h2>
+      <ul>
+        <li><a href="https://www.google.com">Email</a></li>
+        <li><a href="https://www.google.com">LinkedIn</a></li>
+        <li><a href="https://www.google.com">GitHub</a></li>
+      </ul>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required />
+        </div>
+
+        <div>
+          <label for="contact-method">Preferred Contact Method:</label>
+          <select name="contact-method" id="contact-method">
+            <option value>Select One</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone Call</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="message-field">Message:</label>
+          <div>
+            <textarea
+              name="message-field"
+              id="message-field"
+              required
+            ></textarea>
+          </div>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+
+      <!-- TODO: Close main element -->
+    </main>
+    <!-- TODO: Add footer with copyright and personal tagline -->
+    <br />
+    <footer>
+      <small>&copy; 2025 Alexis's Bio Page. All rights reserved. </small>
+    </footer>
+  </body>
+</html>

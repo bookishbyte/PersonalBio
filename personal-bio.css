@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(233, 233, 217);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline dotted 2px;
+}
+
+header {
+  text-align: center;
+  top: 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #b4c1f6;
+  border-radius: 5px;
+  cursor: pointer;
+}
